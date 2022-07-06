@@ -39,4 +39,8 @@ public class BookDto {
 		this.number = number;
 	}
 
+	@Override
+	public String toString() {
+		return "BookDto [id=" + id + ", empName=" + empName + ", address=" + address + ", number=" + number + "]";
+	}
 }
